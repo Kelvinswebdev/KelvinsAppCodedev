@@ -1,0 +1,402 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+ .notice{
+  position:absolute;
+   background-color: #f1f1f1;
+   width: 100%;
+   height: 150px;
+
+ }
+
+ .notice h3{
+   padding-left:100px;
+   margin-top: 20px;
+   font-family: sans-serif;
+   font-weight: bold;
+   color: #f06600;
+   letter-spacing: 0.5px;
+ }
+
+.pnotice{
+  font-family: sans-serif;
+  padding-left:100px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-size: 13px;
+  color: gray;
+}
+
+.nav1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e76400;
+}
+
+.nav1 li {
+  float: left;
+  position: relative;
+  left: 87px;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.nav1 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav1 li a:hover {
+  background-color: #111;
+}
+
+/* the styling of the dropdown starts here */
+
+.dropbtn {
+
+  color: Gray;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  top: 40px;
+  left: 87px;
+  display: inline-block;
+
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+    background-color:white;
+}
+
+.dropdown:hover .dropbtn {
+
+  color: orange;
+  border-bottom: 2px solid orange;
+
+}
+
+.GTCOlogo{
+  float: right;
+  margin-right: 150px;
+}
+
+.Gthouse{
+  width: 100%;
+  height: 180px;
+  background-color: #f7f8f8;
+  margin-top: 70px;
+}
+
+.house{
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+.form{
+
+
+  color: #696f73;
+
+}
+
+.formh1{
+padding-top: 90px;
+  margin-left: 100px;
+  font-family: sans-serif;
+  color: gray;
+
+}
+
+/* .form-content{
+  background-color: white;
+  width: 400px;
+  padding: 24px 24px;
+  position: relative;
+  bottom: 300px;
+  left: 30px;
+}
+
+.formp{
+  color: orange;
+}
+
+.formpp{
+  font-size: 13px;
+  line-height: 20px
+}
+
+.formb{
+  background-color: #f06600;
+  padding: 12px 24px;
+  border: none
+  color:white;
+  border: none;
+} */
+
+
+
+
+.latestcontent{
+  margin-left: 100px;
+  margin-top: 80px;
+  font-size: 25px;
+}
+
+.latest-content{
+  color: #333;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+}
+
+.content-items a{
+  text-decoration: none;
+}
+.date{
+  color: gray;
+  font-size: 15px;
+  font-family: sans-serif;
+  line-height: 20px;
+}
+
+.heading{
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #424A52;
+
+}
+
+.heading:hover{
+  color: orange;
+}
+
+
+hr{
+  width: 60%;
+margin-left: 0;
+opacity: 0.3;
+margin-top: 50px;
+}
+
+.fbutton{
+  margin-top: 40px;
+  background-color:  #f06600;
+  text-align: center;
+  border: none;
+  padding: 12px 24px;
+}
+
+button a{
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.latestcontent .vnav{
+  float: right;
+/* position: relative; */
+bottom: 140px;
+margin-right: 140px;
+
+}
+
+.vnav{
+position: relative;
+bottom: 600px;
+}
+.search{
+  padding-top:12px ;
+  padding-bottom:12px ;
+  padding-right: 80px;
+  border: none;
+  background-color: #f1f1f1;
+  font-family: sans-serif;
+}
+
+
+
+ span{
+   position: relative;
+   left: 140px;
+}
+
+.topic{
+  font-family: sans-serif;
+font-size: 25px;
+color: #333;
+}
+
+.topics{
+  font-family: sans-serif;
+  color: gray;
+  font-size: 15px;
+}
+
+
+
+
+
+.topics a{
+    font-family: sans-serif;
+    color:gray;
+    line-height: 30px;
+    font-size: 13px;
+
+}
+.topics a:hover{
+  color: orange;
+}
+.run{
+
+  width: 100%;
+  height: 300px;
+  background-color: #f7f8f8;
+  padding-top: 50px;
+  margin-top: 70px;
+}
+
+.run-items {
+margin-left: 100px;
+font-family: sans-serif;
+color: gray;
+font-size: 15px;
+
+}
+
+.run-text{
+  margin-bottom: 30px;
+}
+.run-items img{
+  float: left;
+  margin-right: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.well{
+  margin-top: 70px;
+  /* background-image: linear-gradient(#fff,#fafafa); */
+
+}
+.third-section{
+margin-left: 100px;
+}
+
+.third-content{
+  float: left;
+  margin-right: 80px;
+  text-align: center;
+}
+
+.well{
+  background-color:;
+  width: 100%;
+height: 300px;
+}
+
+.well-content{
+  float: left;
+  margin-left: 100px;
+  font-family: sans-serif;
+  color: Gray;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.title{
+  font-size: 15px;
+  margin-bottom: 30px;
+  color: #333;
+}
+.hrss{
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.life{
+  margin-left: 100px;
+}
+
+.life-content{
+  float: left;
+  margin-right: 20px;
+}
+
+.life p{
+  margin-top: 30px;
+}
+
+.iam{
+  background-color: #434a51;
+  height: 100px;
+  width: 100%;
+}
+
+.faith-list{
+  margin-left: 100px;
+}
+
+.faith-list p{
+  float: left;
+  font-size: 13px;
+  color: white;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+.faith-list a{
+  position: relative;
+  left: 50px;
+  margin-right: 20px;
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+
+}
+
+#list{
+  position: relative;
+  left: 150px;
+  font-size: 20px;
+  margin-right: 30px;
+
+}

@@ -1,0 +1,214 @@
+
+body{
+  margin:0;
+  padding: :0;
+  box-sizing: border-box;
+
+}
+
+img{
+  max-width: 100%;
+}
+
+h1,h2{margin-bottom: 20px;}
+
+.topbar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 3;
+  background-color: white;
+  padding-right: 20px;
+}
+
+
+
+.navbar {
+position: relative;
+bottom: 20px;
+background-color: none;
+padding-right: 20px;
+}
+
+.navbar li a{
+  padding-left: 20px;
+}
+
+.navbar li:hover{
+  border-bottom: 1px solid orange;
+}
+
+.logo{
+margin-left: 20px;
+}
+
+.navbar-nav li{
+  border-right: 1px solid #f1f1f1;
+
+
+}
+
+
+.topbar li{
+margin: 7px;
+list-style-type: none;
+
+}
+
+.topbar li a{
+  text-decoration: none;
+  color: orange;
+  font-size: 15px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border:none;
+  border-radius: none;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.nav-item:hover .dropdown-menu{
+  display: block;
+}
+
+ button{
+  background-color: #da5800;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover{
+  color: white;
+}
+
+
+.resolve{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+  background-color: black;
+}
+
+.resolve h1{
+  text-align: center;
+  color: white;
+}
+
+.resolve p{
+  color: white;
+}
+
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.i-content{
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0px 7px 30px -20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.i-content h1{
+  font-size: 30px;
+}
+.i-content p{
+  font-size: 13px;
+}
+
+/* the new footer concept begins here */
+
+.footimgages{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .footimgages .faith-list .faith-liste{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footimgages a{
+  margin: 10px;
+}
+
+.faith{
+  display: flex;
+  background-color: #333;
+  justify-content: space-around;
+  height: 150px;
+  align-items: center;
+}
+
+.faith-list{
+  display: flex;
+}
+
+.faith-list a{
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .faith-list a,{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .faith-list p{
+    display: none;
+  }
+}
+
+.faith-list p{
+  color: white;
+}
+
+.faith-liste{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .faith-liste{
+    display:flex;
+margin-right: 130px;
+  }
+}
+
+.faith-liste a{
+  padding-left: 30px;
+  color: white;
+  font-size: 20px;
+}

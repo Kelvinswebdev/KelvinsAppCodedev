@@ -1,0 +1,303 @@
+
+body{
+  margin:0;
+  padding: :0;
+  box-sizing: border-box;
+
+}
+
+img{
+  max-width: 100%;
+}
+
+h1,h2{margin-bottom: 20px;}
+
+.topbar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 3;
+  background-color: white;
+  padding-right: 20px;
+}
+
+
+
+.navbar {
+position: relative;
+bottom: 20px;
+background-color: none;
+padding-right: 20px;
+}
+
+.navbar li a{
+  padding-left: 20px;
+}
+
+.navbar li:hover{
+  border-bottom: 1px solid orange;
+}
+
+.logo{
+margin-left: 20px;
+}
+
+.navbar-nav li{
+  border-right: 1px solid #f1f1f1;
+
+
+}
+
+
+.topbar li{
+margin: 7px;
+list-style-type: none;
+
+}
+
+.topbar li a{
+  text-decoration: none;
+  color: orange;
+  font-size: 15px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border:none;
+  border-radius: none;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.nav-item:hover .dropdown-menu{
+  display: block;
+}
+
+ button{
+  background-color: #da5800;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover{
+  color: white;
+}
+
+
+.robot{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d6f9ff;
+}
+
+.robot img{
+  border-radius: 600px;
+}
+
+.r-content{
+  width: 500px;
+  margin-right: 40px;
+}
+
+.head{
+  margin-top: 50px;
+  padding: 50px;
+  text-align: center;
+
+}
+
+.head h1{
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.blue{
+  color: #da5800;
+}
+
+.h-content{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-between;
+  /* background-color: #e7fbff; */
+}
+
+.h-con{
+  width: 500px;
+  margin-right: 40px;
+}
+
+.h-content img{
+  /* border-radius: 600px; */
+}
+
+.h-content button{
+  padding: 14px 16px;
+  border:none;
+  border-radius: 20px;
+  background-color: #da5800;
+  color: white;
+}
+
+.main{
+  padding: 50px;
+}
+
+.main h1{
+  text-align: center;
+}
+
+.main span{
+  text-align: center;
+text-decoration: underline 7px solid green;
+}
+
+.main p{
+  text-align: center;
+}
+
+.pads{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  /* align-items:center; */
+  justify-content:center;
+
+
+
+}
+
+
+.p-content{
+  display: block;
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+  margin: 5px;
+  text-align: center;
+  box-shadow:0 7px 30px -20px #27c2fd;
+  transition: 1s;
+  background-color: white;
+}
+
+.p-content h3{
+  font-weight: bolder;
+  color: #001b40;
+  padding: 10px;
+
+}
+
+.p-content:hover{
+transform: scale(1.1);
+z-index: 1;
+}
+
+.p-content button{
+  background-color: white;
+  color:#001b40;
+  border: 1px solid #ff0072;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.start{
+  background-image: url("code pics/start.png");
+  width: 1000px;;
+  height: 300px;
+}
+
+/* the new footer concept begins here */
+
+.footimgages{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .footimgages .faith-list .faith-liste{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footimgages a{
+  margin: 10px;
+}
+
+.faith{
+  display: flex;
+  background-color: #333;
+  justify-content: space-around;
+  height: 150px;
+  align-items: center;
+}
+
+.faith-list{
+  display: flex;
+}
+
+.faith-list a{
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .faith-list a,{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .faith-list p{
+    display: none;
+  }
+}
+
+.faith-list p{
+  color: white;
+}
+
+.faith-liste{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .faith-liste{
+    display:flex;
+margin-right: 130px;
+  }
+}
+
+.faith-liste a{
+  padding-left: 30px;
+  color: white;
+  font-size: 20px;
+}
